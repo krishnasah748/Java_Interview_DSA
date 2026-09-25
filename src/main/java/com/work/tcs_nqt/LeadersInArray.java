@@ -30,3 +30,4 @@ public class LeadersInArray {
 }
 
 //A leader is an element that is greater than all the elements to its right.
+// last element is always a leader

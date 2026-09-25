@@ -7,15 +7,11 @@ public class RevEachWord {
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
 
-        String[] arr=str.split(" ");
+        String[] arr=str.split("\\s+");
         for(int i=0;i< arr.length;i++){
             StringBuilder sb=new StringBuilder(arr[i]);
             String res=sb.reverse().toString();
-            System.out.print(res);
-
-            if(i != arr.length - 1) {
-                System.out.print(" ");
-            }
+            System.out.print(res+" ");
         }
     }
 }

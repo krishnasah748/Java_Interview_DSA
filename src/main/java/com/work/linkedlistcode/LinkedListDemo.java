@@ -18,8 +18,8 @@ public class LinkedListDemo {  // Todo This is the main class. Execution starts 
 
         head.next = second;    // todo Connect the first node to the second node  eg. 10--->20
         second.next = third;
-        Node temp = head;  // todo We want to traverse the list without changing head.
 
+        Node temp = head;  // todo We want to traverse the list without changing head.
         while (temp != null) {  // todo Keep running the loop until temp becomes null.
             System.out.print(temp.data + " ");  // todo Print the current node's data.
             temp = temp.next; // todo Move temp to the next node.

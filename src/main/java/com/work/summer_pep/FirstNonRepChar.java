@@ -16,7 +16,6 @@ public class FirstNonRepChar {
         for (char ch:map.keySet()){
             if(map.get(ch)>=2){
                 System.out.println(ch);
-
                 break;
             }
         }

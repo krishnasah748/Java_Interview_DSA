@@ -22,9 +22,10 @@ public class CharacterCount2 {
             System.out.print("'"+ch+"'"+" = "+map.get(ch));
             first=false;
         }
+//        System.out.print("\b\b");   // it removes the last line comma
         System.out.print("]");
 
-//        System.out.print("\b\b");   // it remove the last line comma
+
 
     }
 }

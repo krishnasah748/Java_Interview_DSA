@@ -24,5 +24,6 @@ public class CommonElementTwoArrays {
                 }
             }
         }
+//        System.out.println("\b");
     }
 }

@@ -8,12 +8,12 @@ public class LongestWordInString {
         String str=sc.nextLine();
 
         String[] s=str.split("\\s+");
-        String word=s[0];
+        String res=s[0];
         for (int i = 0; i < s.length; i++) {
-            if(s[i].length() > word.length()) {
-                word = s[i];
+            if(s[i].length() > res.length()) {
+                res = s[i];
             }
         }
-        System.out.println(word);
+        System.out.println(res);
     }
 }

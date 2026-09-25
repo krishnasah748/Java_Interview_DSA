@@ -13,13 +13,20 @@ public class FirstNonRepeatingChar {
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
 
-        String res="";
-        for (char ch: str.toCharArray()){
+        for (char ch:str.toCharArray()){
             if (map.get(ch)==1){
-                res+=ch;
+                System.out.println(ch);
                 break;
             }
         }
-        System.out.println("first non repeating char is "+res);
+
+//        String res="";
+//        for (char ch: str.toCharArray()){
+//            if (map.get(ch)==1){
+//                res+=ch;
+//                break;
+//            }
+//        }
+//        System.out.println("first non repeating char is "+res);
     }
 }

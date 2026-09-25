@@ -14,8 +14,5 @@ public class RemoveAllOccurrenceOfGivenChar {
                 System.out.print(ch2[i]);
             }
         }
-
-//        str=str.replaceAll(ch,"");
-//        System.out.println(str);
     }
 }

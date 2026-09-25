@@ -2,7 +2,6 @@ package com.work.tcs_nqt;
 
 import java.util.HashSet;
 import java.util.Scanner;
-import java.util.logging.SimpleFormatter;
 
 public class CommonElementsInArrays2 {
     public static void main(String[] args) {
@@ -26,7 +25,6 @@ public class CommonElementsInArrays2 {
         for (int i = 0; i < m; i++) {
             if(set.contains(arr2[i])){
                 System.out.print(arr2[i]+" ");
-                set.remove(arr2[i]);
             }
         }
     }

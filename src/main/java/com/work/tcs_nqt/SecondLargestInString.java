@@ -1,5 +1,6 @@
 package com.work.tcs_nqt;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SecondLargestInString {
@@ -15,7 +16,7 @@ public class SecondLargestInString {
             if(s[i].length() > lar.length()){
                 seclar=lar;
                 lar=s[i];
-            }else if (s[i].length() > seclar.length() && s[i].length() <lar.length()) {
+            }else if (s[i].length() > seclar.length() && s[i].length() !=lar.length()) {
                 seclar = s[i];
             }
         }

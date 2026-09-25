@@ -17,13 +17,20 @@ public class FirstNonRepeatedElements {
             map.put(num,map.getOrDefault(num,0)+1);
         }
 
-        int res=-1;
         for (int num:arr){
             if (map.get(num)==1){
-                res=num;
+                System.out.println(num);
                 break;
             }
         }
-        System.out.println("First non-repeated Element : "+res);
+
+//        int res=-1;
+//        for (int num:arr){
+//            if (map.get(num)==1){
+//                res=num;
+//                break;
+//            }
+//        }
+//        System.out.println("First non-repeated Element : "+res);
     }
 }
